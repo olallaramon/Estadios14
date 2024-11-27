@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#toolbar {
+    background: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#stadium {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background: #79c16f; /* Césped */
+    border: 5px solid #444;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.element {
+    position: absolute;
+    cursor: move;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.vip {
+    background-color: #ff6f61;
+}
+
+.press {
+    background-color: #ffdd57;
+}
+
+.recreation {
+    background-color: #57a0ff;
+}
+
+.players {
+    background-color: #66cc99;
+}
